@@ -20,3 +20,8 @@ li a {
 li a:hover {
   background-color: #111; 
 }
+
+h2.headertekst {
+  text-align: center;
+}
+<h2 style="text-align: center;">Text</h2>
