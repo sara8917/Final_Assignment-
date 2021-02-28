@@ -1,9 +1,9 @@
-ul {
-  list-style-type: none; 
+.vertical-menu {
+  list-style-type: none;
   margin: 0; 
-  padding: 0; 
+  padding: 12px; 
+  width: 200px;  
   overflow: hidden;
-  width: 800px;
   background-color: #f2fafc;
 
 
@@ -12,6 +12,11 @@ ul {
   li {
   float: left;
 }
+
+.vertical-menu a.active {
+  background-color: #e1ede7; 
+  color: white;
+
 li a {
   display: block; 
   color: white; 
@@ -19,7 +24,7 @@ li a {
   padding: 14px 16px; 
   text decoration: none; 
 }
-li a:hover {
+.vertical-menu a:hover {
   background-color: #111; 
 }
 div {
@@ -36,3 +41,5 @@ h1 {
   [class*="col-"] {
     width: 100%;
   }
+
+  
