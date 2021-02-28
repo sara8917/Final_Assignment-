@@ -3,6 +3,11 @@ ul {
   margin: 0; 
   padding: 0; 
   overflow: hidden;
+  height: 400px;
+  width: 800px;
+  background-color: #f2fafc;
+
+
   background-color: #ADD8E6;
   }
   li {
