@@ -24,7 +24,7 @@ li a:hover {
 div {
     height: 400px;
     width: 800px;
-    background: red;
+    background-color: #e4ebed;
 }
 <div>
     <h1>This is title</h1>
