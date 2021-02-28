@@ -1,45 +1,19 @@
 .vertical-menu {
-  list-style-type: none;
-  margin: 0; 
-  padding: 12px; 
-  width: 200px;  
-  overflow: hidden;
-  background-color: #f2fafc;
+  width: 200px; /* Set a width if you like */
+}
 
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
 
-  background-color: #ADD8E6;
-  }
-  li {
-  float: left;
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
 }
 
 .vertical-menu a.active {
-  background-color: #e1ede7; 
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
   color: white;
-
-li a {
-  display: block; 
-  color: white; 
-  text-align: center; 
-  padding: 14px 16px; 
-  text decoration: none; 
-}
-.vertical-menu a:hover {
-  background-color: #111; 
-}
-div {
-    background-color: #f2fafc;
-}
-
-h1 {
-    text-align: center;
-    margin: 0px auto;
-    display; block;
-}
-
-@media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
-
-  
