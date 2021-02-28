@@ -1,0 +1,8 @@
+<div class="css-responsive-menu">
+  <label for="hidden-checkbox1" class="expand-control">Menu</label>
+  <input type="checkbox" id="hidden-checkbox1" class="expand-control">
+  <ul class="navigation-list">
+    <li><a href="about.html">about</a></li>
+    <li><a href="contact.html">contact</a></li>
+  </ul>
+</div>
